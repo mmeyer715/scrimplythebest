@@ -2,34 +2,50 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Shrimp</title>
 </head>
 
 <body>
     <header>
         <h1>
-            <a href="/">Shrimp</a>
+            <a href="/">Shrimpire</a>
         </h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#who-we-are">Who We Are</a>
-                </li>
-                <li>
-                    <a href="#what-we-do">What We Do</a>
-                </li>
-                <li>
-                    <a href="#shrimp-species">Shrimp Species</a>
-                </li>
-                <li>
-                    <a href="#join-the-club">Join The Club</a>
-                </li>
-            </ul>
+            <div>
+
+                <a href="#who-we-are">Who We Are</a>
+
+                <a href="#what-we-do">What We Do</a>
+
+                <a href="#shrimp-species">Shrimp Species</a>
+
+                <a href="#join-the-club">Join The Club</a>
+            </div>
         </nav>
     </header>
 
     <!-- hero -->
     <section>
+        <div>
+            <h3>Join The Club Today</h3>
+            <p>Fill out this form to subscribe to our weekly news letter</p>
+        </div>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text"placeholder="Your Name" name="name" id="name" />
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" />
+            <p>
+                <label for="checkbox">
+                    I acknowledge that I am signing up for the Shrimpire weekly news letter.
+                </label>
+                <input type="checkbox" name="new-sub" id="checkbox" />
+            </p>
+            <button type="submit">
+                Join the Shrimpire!
+            </button>
+        </form>
     </section>
 
     <!-- "Who We Are" section-->
@@ -55,6 +71,9 @@
     <!-- footer -->
     <footer>
         <h2>Made with love by Scrimpy</h2>
+        <div>
+            &copy; 2022 Shrimpire, Inc.
+        </div>
     </footer>
 </body>
 
