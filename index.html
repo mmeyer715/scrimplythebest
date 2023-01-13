@@ -13,7 +13,6 @@
         </h1>
         <nav>
             <div>
-
                 <a href="#who-we-are">Who We Are</a>
 
                 <a href="#what-we-do">What We Do</a>
@@ -26,26 +25,30 @@
     </header>
 
     <!-- hero -->
-    <section>
-        <div>
-            <h3>Join The Club Today</h3>
-            <p>Fill out this form to subscribe to our weekly news letter</p>
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Join The Club Today!</h3>
+            <p>Fill out this form to subscribe to our weekly newsletter and stay up to date with our new findings!</p>
+            <form>
+
+                <label for="name">Full Name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that by subscribing, I will be receiving a weekly newsletter from the Shrimpire.
+                    </label>
+                    <input type="checkbox" name="new-sub" id="checkbox" />
+                </p>
+                
+                <button type="submit">
+                    Join the Shrimpire!
+                </button>
+            </form>
         </div>
-        <form>
-            <label for="name">Full Name:</label>
-            <input type="text"placeholder="Your Name" name="name" id="name" />
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Email Address" name="email" id="email" />
-            <p>
-                <label for="checkbox">
-                    I acknowledge that I am signing up for the Shrimpire weekly news letter.
-                </label>
-                <input type="checkbox" name="new-sub" id="checkbox" />
-            </p>
-            <button type="submit">
-                Join the Shrimpire!
-            </button>
-        </form>
     </section>
 
     <!-- "Who We Are" section-->
